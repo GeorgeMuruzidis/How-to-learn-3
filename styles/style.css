@@ -32,7 +32,7 @@
 
 }
 
-.container {
+.container-main {
   display: flex;
   align-items: center;
   width: 730px;
@@ -108,7 +108,7 @@
 
 .two-columns__paragraph {
   margin: 0;
-  ;
+
 }
 
 .two-columns__paragraph_center {
@@ -123,7 +123,7 @@
 /* страница с таблицей */
 
 
-.section__title {
+.digits__title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -133,7 +133,7 @@
 
 }
 
-.section__subtitle {
+.digits__subtitle {
   margin-top: 20px;
   width: 60%;
   margin-right: auto;
@@ -232,7 +232,7 @@
 
 }
 
-.section__title_theme_dark {
+.kaufman__title_theme_dark {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -243,7 +243,7 @@
 
 }
 
-.section__subtitle_theme_dark {
+.kaufman__subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -340,7 +340,6 @@
   margin-bottom: 20px;
   margin-top: 0;
   color: white;
-  margin-bottom: 20px;
 
 }
 
@@ -360,14 +359,15 @@
   margin-top: 0;
   display: flex;
   flex-direction: column;
+
 }
 
 .footer__social-icon {
-  margin: 10px;
+  margin-right: 10px;
   width: 16px;
   height: 16px;
   color: white;
-  margin: 0 10px 0 0;
+  
 }
 
 .footer__colunmn_content_social {
@@ -389,7 +389,11 @@
   font-weight: normal;
   margin-bottom: 16px;
   margin-top: 0;
-  display: flex;
   color: white;
+  
+}
+
+.footer__column-link_logo {
+  display: flex;
   align-items: center;
 }
