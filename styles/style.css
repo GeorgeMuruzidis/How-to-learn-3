@@ -210,7 +210,7 @@
   position: absolute;
   z-index: 1;
 }
- 
+
 .feynman__link {
   line-height: 51px;
   font-size: 36px;
@@ -218,8 +218,9 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  color: #2f80ed;
 }
-  
+
 
 /* 2оя таблица КАУФМАн*/
 
@@ -297,6 +298,7 @@
 
 }
 
+
 .footer {
   background-color: #1f1f1f;
   overflow: hidden;
@@ -372,8 +374,6 @@
   display: flex;
   flex-direction: column;
   color: white;
-
-
 }
 
 .footer__column_content_copyright {
@@ -391,5 +391,5 @@
   margin-top: 0;
   display: flex;
   color: white;
-  align-items:center;
+  align-items: center;
 }
