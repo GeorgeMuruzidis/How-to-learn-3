@@ -356,6 +356,8 @@
   color: white;
   margin-bottom: 16px;
   margin-top: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__social-icon {
@@ -364,14 +366,13 @@
   height: 16px;
   color: white;
   margin: 0 10px 0 0;
-  display: flex;
 }
 
 .footer__colunmn_content_social {
   display: flex;
   flex-direction: column;
   color: white;
-  
+
 
 }
 
@@ -389,7 +390,6 @@
   margin-bottom: 16px;
   margin-top: 0;
   display: flex;
-  flex-direction: row-reverse;
   color: white;
-
+  align-items:center;
 }
