@@ -103,6 +103,7 @@
   flex-direction: column;
   width: 80%;
   min-width: 784px;
+  row-gap: 30px;
 
 }
 
@@ -117,6 +118,7 @@
   font-weight: 600;
   line-height: 34px;
   font-size: 24px;
+  
 }
 
 .description {
@@ -239,6 +241,7 @@
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
+  padding: 90px 0;
 
 }
 
@@ -246,7 +249,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  margin: 90px auto 0 auto;
+  margin: 0 auto 0 auto;
   width: 60%;
   text-align: center;
   color: white;
@@ -287,7 +290,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 auto 80px auto;
+  margin: 0 auto 0 auto;
   color: white;
   z-index: 3;
 }
