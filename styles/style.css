@@ -47,11 +47,10 @@
   line-height: 25px;
   font-weight: normal;
   position: absolute;
-  z-index: 5;
+  z-index: 7;
   width: 388px;
   bottom: 30px;
   left: 64px;
-  margin: 0%;
 }
 
 .header__link {
@@ -109,7 +108,7 @@
 
 .two-columns__paragraph {
   margin: 0;
- 
+
 }
 
 
@@ -118,7 +117,7 @@
   font-weight: 600;
   line-height: 34px;
   font-size: 24px;
-  
+
 }
 
 .description {
@@ -325,12 +324,12 @@
 .footer__columns {
   display: flex;
   width: 90%;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 60px;
   margin-bottom: 40px;
-  
-  
-  
+
+
+
 }
 
 .logo_place_footer {
