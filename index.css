@@ -1,4 +1,4 @@
-@import url(./normalize.css);
+@import url(./vendor/normalize.css);
 
 @import url(./blocks/page/page.css);
 @import url(./blocks/header/header.css);
@@ -83,4 +83,3 @@
 @import url(./blocks/video/__iframes/video__iframes.css);
 
 @import url(./blocks/oakley/oakley.css);
-
